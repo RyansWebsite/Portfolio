@@ -16,7 +16,6 @@ import About from "./pages/About";
 import EasterEgg from "./pages/EasterEgg";
 import NotFound from "./pages/NotFound";
 import { ViewModeProvider, useViewMode } from "./context/ViewModeContext";
-import ViewToggle from "./components/ViewToggle";
 
 // Wrapper component that constrains width when in mobile mode
 function MobileWrapper({ children }: { children: React.ReactNode }) {
@@ -63,7 +62,6 @@ const App = () => {
         <TooltipProvider>
           <Toaster />
           <Sonner />
-          <ViewToggle />
           <BrowserRouter basename={import.meta.env.BASE_URL}>
             <MobileWrapper>
               <Routes>
