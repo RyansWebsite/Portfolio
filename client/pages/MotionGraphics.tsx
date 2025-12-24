@@ -60,28 +60,28 @@ export default function MotionGraphics() {
 
   const projects = [
     {
-      image: "/Portfolio/images/Des Moines Major.jpg",
+      image: "/images/Des Moines Major.jpg",
       title: "Des Moines Major - Counter Strike",
       description: "This is a concept trailer for a Counter Strike Major event in Iowa's Capital, Des Moines",
       link: "https://www.youtube.com/watch?v=m12Z1AIQHmQ",
       highlightColor: "#7C55BA",
     },
     {
-      image: "/Portfolio/images/ActivePeak Hacked.jpg",
+      image: "/images/ActivePeak Hacked.jpg",
       title: "ActivePeak Hacked Boot-Up",
       description: "Oh no... It seems your old windows 98 computer picked up a virus the last time you used it",
       link: "https://www.youtube.com/watch?v=EvymILC6b9w",
       highlightColor: "#FD1E03",
     },
     {
-      image: "/Portfolio/images/ActivePeak Connecting CRT.jpg",
+      image: "/images/ActivePeak Connecting CRT.jpg",
       title: "ActivePeak Connecting - CRT",
       description: "This intro was created to emulate the look and recognizable characteristics of an old CRT TV",
       link: "https://www.youtube.com/watch?v=m6XJLnGNRSo",
       highlightColor: "#45428D",
     },
     {
-      image: "/Portfolio/images/Gradiant Shapes 1.jpg",
+      image: "/images/Gradiant Shapes 1.jpg",
       title: "The Timeless Day",
       description:
         "Though a beginner piece, these shapes demonstrate a distinct stylistic approach suited for modern motion graphics across all media.",
@@ -100,7 +100,7 @@ export default function MotionGraphics() {
         {/* Mobile Hero - Motion Graphics Card */}
         <Link to="/" className="block mb-6 rounded-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)]">
           <img
-            src="/Portfolio/images/o motion 2.png"
+            src="/images/o motion 2.png"
             alt="Motion Graphics"
             className="w-full h-48 object-cover"
           />
@@ -123,7 +123,7 @@ export default function MotionGraphics() {
         <div className="flex flex-row gap-0 mb-12 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden h-[420px] lg:h-[450px]">
           <Link to="/" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="/Portfolio/images/o motion 2.png"
+              src="/images/o motion 2.png"
               alt="Motion Graphics"
               className="w-full flex-1 object-cover"
             />

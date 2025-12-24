@@ -22,7 +22,7 @@ export default function EasterEgg() {
             Disc golf is one of my favorite hobbies. Thanks for exploring the site and finding this secret page!
           </p>
           <img
-            src="/Portfolio/images/EggtoOmletteGif.gif"
+            src="/images/EggtoOmletteGif.gif"
             alt="Egg to Omelette"
             className="w-64 md:w-80 lg:w-96 rounded-2xl"
           />

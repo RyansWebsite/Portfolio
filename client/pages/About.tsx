@@ -104,7 +104,7 @@ export default function About() {
         {/* Mobile Hero - Photo and Name */}
         <Link to="/" className="block mb-0 rounded-t-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)]">
           <img
-            src="/Portfolio/images/LinkedIn Photo.jpg"
+            src="/images/LinkedIn Photo.jpg"
             alt="Ryan Anderson"
             className="w-full h-48 object-cover object-top"
           />
@@ -143,13 +143,13 @@ export default function About() {
         {/* Mobile Stats Numbers */}
         <div className="flex flex-col gap-4 -mt-8 pt-12 pb-8 -mb-4 bg-[#1A1A24]">
           <div className="h-36 overflow-hidden flex items-center justify-center">
-            <img src="/Portfolio/images/9 alone.png" alt="9 Years of Video Editing" className="w-full scale-[2]" />
+            <img src="/images/9 alone.png" alt="9 Years of Video Editing" className="w-full scale-[2]" />
           </div>
           <div className="h-36 overflow-hidden flex items-center justify-center">
-            <img src="/Portfolio/images/7 alone.png" alt="7 Years of Graphic Design" className="w-full scale-[2]" />
+            <img src="/images/7 alone.png" alt="7 Years of Graphic Design" className="w-full scale-[2]" />
           </div>
           <div className="h-36 overflow-hidden flex items-center justify-center">
-            <img src="/Portfolio/images/4 alone.png" alt="4 Years of Video Production" className="w-full scale-[2]" />
+            <img src="/images/4 alone.png" alt="4 Years of Video Production" className="w-full scale-[2]" />
           </div>
         </div>
 
@@ -219,7 +219,7 @@ export default function About() {
         <div className="flex flex-row gap-0 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden relative z-10 h-[420px] lg:h-[450px]">
           <Link to="/" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="/Portfolio/images/LinkedIn Photo.jpg"
+              src="/images/LinkedIn Photo.jpg"
               alt="Ryan Anderson"
               className="w-full flex-1 object-cover"
             />
@@ -257,7 +257,7 @@ export default function About() {
         {/* Stats Image */}
         <div className="overflow-hidden h-64 lg:h-80 -mt-4 -mb-4 relative z-0">
           <img
-            src="/Portfolio/images/974.png"
+            src="/images/974.png"
             alt="Years of experience stats"
             className="w-full object-cover object-center -translate-y-[25%]"
           />

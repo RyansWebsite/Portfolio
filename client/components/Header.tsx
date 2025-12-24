@@ -16,7 +16,7 @@ export default function Header() {
         <div className={`flex justify-between items-center max-w-7xl mx-auto ${isMobileView ? "px-4 h-20 py-2" : "px-8 lg:px-12 h-24 md:h-28 py-2"}`}>
           <Link to="/" className={`h-full flex items-center group ${isMobileView ? "-ml-4" : ""}`}>
             <img
-              src="/Portfolio/images/RDA Green logo.png"
+              src="/images/RDA Green logo.png"
               alt="Ryan Anderson Logo"
               className="h-full w-auto object-contain object-left transition-all duration-300 group-hover:scale-105 group-hover:brightness-110 group-hover:drop-shadow-[0_0_8px_rgba(185,255,102,0.5)]"
             />
