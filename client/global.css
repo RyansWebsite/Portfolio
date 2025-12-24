@@ -1,0 +1,92 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 228 17% 13%;
+    --foreground: 0 0% 88%;
+
+    --card: 228 17% 13%;
+    --card-foreground: 0 0% 88%;
+
+    --popover: 228 17% 13%;
+    --popover-foreground: 0 0% 88%;
+
+    --primary: 74 100% 70%;
+    --primary-foreground: 225 16% 13%;
+
+    --secondary: 228 17% 17%;
+    --secondary-foreground: 0 0% 88%;
+
+    --muted: 228 17% 17%;
+    --muted-foreground: 0 0% 63%;
+
+    --accent: 74 100% 70%;
+    --accent-foreground: 225 16% 13%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 228 17% 20%;
+    --input: 228 17% 20%;
+    --ring: 74 100% 70%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 228 17% 13%;
+    --sidebar-foreground: 0 0% 88%;
+    --sidebar-primary: 74 100% 70%;
+    --sidebar-primary-foreground: 225 16% 13%;
+    --sidebar-accent: 228 17% 17%;
+    --sidebar-accent-foreground: 0 0% 88%;
+    --sidebar-border: 228 17% 20%;
+    --sidebar-ring: 74 100% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#111117] text-foreground font-bakbak;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes delayedGlow {
+  0% {
+    filter: drop-shadow(0 0 0 rgba(185, 255, 102, 0));
+  }
+  100% {
+    filter: drop-shadow(0 0 8px rgba(185, 255, 102, 0.5));
+  }
+}
