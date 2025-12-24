@@ -73,7 +73,7 @@ export default function Index() {
         {/* Mobile Hero - Photo and Name */}
         <Link to="/about" className="block mb-6 rounded-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)]">
           <img
-            src="images/LinkedIn Photo.jpg"
+            src="/Portfolio/images/LinkedIn Photo.jpg"
             alt="Ryan Anderson"
             className="w-full h-48 object-cover object-top"
           />
@@ -85,25 +85,25 @@ export default function Index() {
         {/* Mobile 2x2 Navigation Grid */}
         <div className="grid grid-cols-2 gap-4">
           <Link to="/video" className="block rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden">
-            <img src="images/o video 1.png" alt="Video" className="w-full h-32 object-cover" />
+            <img src="/Portfolio/images/o video 1.png" alt="Video" className="w-full h-32 object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-sm text-center">Video</h3>
             </div>
           </Link>
           <Link to="/motion-graphics" className="block rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden">
-            <img src="images/o motion 2.png" alt="Motion Graphics" className="w-full h-32 object-cover" />
+            <img src="/Portfolio/images/o motion 2.png" alt="Motion Graphics" className="w-full h-32 object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-sm text-center">Motion Graphics</h3>
             </div>
           </Link>
           <Link to="/graphic-design" className="block rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden">
-            <img src="images/o design 1.png" alt="Graphic Design" className="w-full h-32 object-cover" />
+            <img src="/Portfolio/images/o design 1.png" alt="Graphic Design" className="w-full h-32 object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-sm text-center">Graphic Design</h3>
             </div>
           </Link>
           <Link to="/resume" className="block rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden">
-            <img src="images/o resume 1.png" alt="Resume" className="w-full h-32 object-cover" />
+            <img src="/Portfolio/images/o resume 1.png" alt="Resume" className="w-full h-32 object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-sm text-center">Resume</h3>
             </div>
@@ -119,47 +119,47 @@ export default function Index() {
         {/* Mobile Photo Grid - Pattern: 1, 2, 1, 1, 2 repeating */}
         <div className="space-y-4">
           {/* 2 - swapped: 02 & 03 now large, 01 small */}
-          <FadeInImage src="images/portfolio-02.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-02.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 2 */}
           <div className="grid grid-cols-2 gap-4">
-            <FadeInImage src="images/portfolio-01.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
-            <FadeInImage src="images/portfolio-03.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-01.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-03.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
           </div>
           {/* 6 - swapped with 4 */}
-          <FadeInImage src="images/portfolio-06.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-06.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 7 - swapped with 5 */}
-          <FadeInImage src="images/portfolio-07.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-07.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 2 - 4 & 5 now small */}
           <div className="grid grid-cols-2 gap-4">
-            <FadeInImage src="images/portfolio-04.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
-            <FadeInImage src="images/portfolio-05.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-04.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-05.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
           </div>
           {/* 1 */}
-          <FadeInImage src="images/portfolio-08.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-08.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 9 - now large */}
-          <FadeInImage src="images/portfolio-09.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-09.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 2 - 10 & 11 now paired */}
           <div className="grid grid-cols-2 gap-4">
-            <FadeInImage src="images/portfolio-10.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
-            <FadeInImage src="images/portfolio-11.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-10.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-11.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
           </div>
           {/* 13 - swapped with 12 */}
-          <FadeInImage src="images/portfolio-13.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-13.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 14 - now big, between swapped 12 & 13 */}
-          <FadeInImage src="images/portfolio-14.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-14.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 12 & 19 */}
           <div className="grid grid-cols-2 gap-4">
-            <FadeInImage src="images/portfolio-12.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
-            <FadeInImage src="images/portfolio-19.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-12.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-19.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
           </div>
           {/* 16 - big */}
-          <FadeInImage src="images/portfolio-16.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-16.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 15 - now big (swapped with 17) */}
-          <FadeInImage src="images/portfolio-15.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
+          <FadeInImage src="/Portfolio/images/portfolio-15.jpg" alt="Portfolio" className="w-full h-44 object-cover rounded-lg" />
           {/* 17 & 18 */}
           <div className="grid grid-cols-2 gap-4">
-            <FadeInImage src="images/portfolio-17.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
-            <FadeInImage src="images/portfolio-18.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-17.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
+            <FadeInImage src="/Portfolio/images/portfolio-18.jpg" alt="Portfolio" className="w-full aspect-square object-cover rounded-lg" />
           </div>
         </div>
 
@@ -180,7 +180,7 @@ export default function Index() {
         <div className="flex flex-row gap-0 mb-12 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden h-[420px] lg:h-[450px]">
           <Link to="/about" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="images/LinkedIn Photo.jpg"
+              src="/Portfolio/images/LinkedIn Photo.jpg"
               alt="Ryan Anderson"
               className="w-full flex-1 object-cover"
             />
@@ -218,25 +218,25 @@ export default function Index() {
         {/* Icon Buttons Grid */}
         <div className="grid grid-cols-4 gap-8 lg:gap-14 mb-12">
           <Link to="/video" className="group flex flex-col rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[4px_8px_12px_0_rgba(0,0,0,0.7)]">
-            <img src="images/o video 1.png" alt="Video" className="w-full object-cover" />
+            <img src="/Portfolio/images/o video 1.png" alt="Video" className="w-full object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-lg lg:text-2xl text-center">Video</h3>
             </div>
           </Link>
           <Link to="/motion-graphics" className="group flex flex-col rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[4px_8px_12px_0_rgba(0,0,0,0.7)]">
-            <img src="images/o motion 2.png" alt="Motion Graphics" className="w-full object-cover" />
+            <img src="/Portfolio/images/o motion 2.png" alt="Motion Graphics" className="w-full object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-lg lg:text-2xl text-center">Motion Graphics</h3>
             </div>
           </Link>
           <Link to="/graphic-design" className="group flex flex-col rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[4px_8px_12px_0_rgba(0,0,0,0.7)]">
-            <img src="images/o design 1.png" alt="Graphic Design" className="w-full object-cover" />
+            <img src="/Portfolio/images/o design 1.png" alt="Graphic Design" className="w-full object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-lg lg:text-2xl text-center">Graphic Design</h3>
             </div>
           </Link>
           <Link to="/resume" className="group flex flex-col rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-all duration-300 hover:scale-105 hover:shadow-[4px_8px_12px_0_rgba(0,0,0,0.7)]">
-            <img src="images/o resume 1.png" alt="Resume" className="w-full object-cover" />
+            <img src="/Portfolio/images/o resume 1.png" alt="Resume" className="w-full object-cover" />
             <div className="bg-[#1E1E1E] p-2">
               <h3 className="text-[#E0E0E0] font-bakbak text-lg lg:text-2xl text-center">Resume</h3>
             </div>
@@ -247,59 +247,59 @@ export default function Index() {
         <div className="space-y-8">
           {/* Row 1 */}
           <div className="grid grid-cols-2 gap-8">
-            <img src="images/portfolio-01.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
-            <img src="images/portfolio-02.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-01.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-02.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
           </div>
 
           {/* Row 2 */}
           <div className="grid grid-cols-3 gap-8">
-            <img src="images/portfolio-03.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-04.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-05.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-03.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-04.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-05.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
           </div>
 
           {/* Row 3 */}
           <div className="grid grid-cols-2 gap-8">
-            <img src="images/portfolio-06.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
-            <img src="images/portfolio-07.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-06.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-07.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
           </div>
 
           {/* Row 4 */}
           <div className="grid grid-cols-2 gap-8">
             <div className="relative rounded-2xl overflow-hidden">
-              <img src="images/portfolio-08.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover" />
+              <img src="/Portfolio/images/portfolio-08.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover" />
               {/* Hidden easter egg button - disc golf bag overlay */}
               <Link to="/easter-egg" className="absolute bottom-[5%] right-0 w-[28%] cursor-pointer group" aria-label="Hidden easter egg">
-                <img src="images/Bag.png" alt="" className="w-full h-auto group-hover:animate-[delayedGlow_5s_ease-in-out_forwards]" />
+                <img src="/Portfolio/images/Bag.png" alt="" className="w-full h-auto group-hover:animate-[delayedGlow_5s_ease-in-out_forwards]" />
               </Link>
             </div>
-            <img src="images/portfolio-09.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-09.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
           </div>
 
           {/* Row 5 */}
           <div className="grid grid-cols-3 gap-8">
-            <img src="images/portfolio-10.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-11.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-12.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-10.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-11.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-12.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
           </div>
 
           {/* Row 6 */}
           <div className="grid grid-cols-2 gap-8">
-            <img src="images/portfolio-13.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
-            <img src="images/portfolio-14.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-13.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-14.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
           </div>
 
           {/* Row 7 */}
           <div className="grid grid-cols-2 gap-8">
-            <img src="images/portfolio-15.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
-            <img src="images/portfolio-16.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-15.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-16.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover rounded-2xl" />
           </div>
 
           {/* Row 8 */}
           <div className="grid grid-cols-3 gap-8">
-            <img src="images/portfolio-17.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-18.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
-            <img src="images/portfolio-19.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-17.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-18.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
+            <img src="/Portfolio/images/portfolio-19.jpg" alt="Portfolio" className="w-full h-48 lg:h-64 object-cover rounded-2xl" />
           </div>
         </div>
 

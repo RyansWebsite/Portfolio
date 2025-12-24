@@ -37,12 +37,12 @@ const queryClient = new QueryClient();
 
 // Preload hero images to prevent flickering on page transitions
 const imagesToPreload = [
-  "images/LinkedIn Photo.jpg",
-  "images/o video 1.png",
-  "images/o motion 2.png",
-  "images/o design 1.png",
-  "images/o resume 1.png",
-  "images/974.png",
+  "/Portfolio/images/LinkedIn Photo.jpg",
+  "/Portfolio/images/o video 1.png",
+  "/Portfolio/images/o motion 2.png",
+  "/Portfolio/images/o design 1.png",
+  "/Portfolio/images/o resume 1.png",
+  "/Portfolio/images/974.png",
 ];
 
 function preloadImages() {

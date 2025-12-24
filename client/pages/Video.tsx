@@ -75,25 +75,25 @@ export default function Video() {
 
   const shortFilms = [
     {
-      image: "images/Call.jpg",
+      image: "/Portfolio/images/Call.jpg",
       title: "CALL",
       description: "After a stressful pitch Sid receives the harsh truth about putting in hard work",
       link: "https://www.youtube.com/watch?v=m12Z1AIQHmQ",
     },
     {
-      image: "images/Split  by a Street.jpg",
+      image: "/Portfolio/images/Split  by a Street.jpg",
       title: "Split by a Street",
       description: "Exposing the hypocrisy of Iowa City's night life despite a neighboring drug free campus",
       link: "https://www.youtube.com/watch?v=EvymILC6b9w",
     },
     {
-      image: "images/Elsewhere.jpg",
+      image: "/Portfolio/images/Elsewhere.jpg",
       title: "Elsewhere",
       description: "The task of studying can be daunting, in this film one can experience it with ADHD",
       link: "https://www.youtube.com/watch?v=m6XJLnGNRSo",
     },
     {
-      image: "images/The timeless day.jpg",
+      image: "/Portfolio/images/The timeless day.jpg",
       title: "The Timeless Day",
       description: "Exploring the reality one may expect whilst living with dementia",
       link: "https://www.youtube.com/watch?v=GkcJoavkDsw",
@@ -102,25 +102,25 @@ export default function Video() {
 
   const workProjects = [
     {
-      image: "images/Design Center Sizzle Reel.jpg",
+      image: "/Portfolio/images/Design Center Sizzle Reel.jpg",
       title: "Design Center Sizzle Reel",
       description: "Known for their production expertise this reel markets the team's skills to clients",
       link: "https://www.youtube.com/watch?v=19XneE1GSyM",
     },
     {
-      image: "images/Resident Graduation 2025.jpg",
+      image: "/Portfolio/images/Resident Graduation 2025.jpg",
       title: "Resident Graduation 2025",
       description: "Every year clinical residents graduate. In this reel the day's emotions are captured",
       link: "https://www.youtube.com/watch?v=YpXBx1r5vqk",
     },
     {
-      image: "images/Chief Tour 1.jpg",
+      image: "/Portfolio/images/Chief Tour 1.jpg",
       title: "Iowa Chief Resident Tour",
       description: "The chief residents give a detailed tour of what life at Iowa Health Care is like",
       link: "https://www.youtube.com/watch?v=MAtrYnuFrgw",
     },
     {
-      image: "images/department contacts 3.jpg",
+      image: "/Portfolio/images/department contacts 3.jpg",
       title: "Internal Med Department Contacts",
       description: "Stacy & Abbey explain how they assist residents in their day-to-day admin roles",
       link: "https://www.youtube.com/watch?v=cyI1kRWhIVg",
@@ -129,25 +129,25 @@ export default function Video() {
 
   const personalProjects = [
     {
-      image: "images/Bynum Wedding.jpg",
+      image: "/Portfolio/images/Bynum Wedding.jpg",
       title: "The Bynum Wedding",
       description: "Celebrating the unforgettable marriage of Becky and Mason Bynum",
       link: "https://www.youtube.com/watch?v=qdSjn5u-5z4",
     },
     {
-      image: "images/without us.jpg",
+      image: "/Portfolio/images/without us.jpg",
       title: "Without Us",
       description: "This Cinematic explores what life would look like in a world without humanity",
       link: "https://www.youtube.com/watch?v=VASoxwoP6BM",
     },
     {
-      image: "images/how youtube changed my life.jpg",
+      image: "/Portfolio/images/how youtube changed my life.jpg",
       title: "How YouTube Changed My Life",
       description: "ActivePeak Reflects on his history as a creator and his friendships",
       link: "https://www.youtube.com/watch?v=A6dY5T5RFDk",
     },
     {
-      image: "images/Mcstuffins Murder.jpg",
+      image: "/Portfolio/images/Mcstuffins Murder.jpg",
       title: "The McStuffins Murder",
       description: "Two Detectives investigate the murder of a stuffed bear when things suddenly twist",
       link: "https://www.youtube.com/watch?v=dg0NzkYxVFA",
@@ -164,7 +164,7 @@ export default function Video() {
         {/* Mobile Hero - Video Card */}
         <Link to="/" className="block mb-6 rounded-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)]">
           <img
-            src="images/o video 1.png"
+            src="/Portfolio/images/o video 1.png"
             alt="Video"
             className="w-full h-48 object-cover"
           />
@@ -251,7 +251,7 @@ export default function Video() {
         <div className="flex flex-row gap-0 mb-12 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden h-[420px] lg:h-[450px]">
           <Link to="/" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="images/o video 1.png"
+              src="/Portfolio/images/o video 1.png"
               alt="Video"
               className="w-full flex-1 object-cover"
             />
