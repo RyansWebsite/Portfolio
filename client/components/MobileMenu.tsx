@@ -8,7 +8,8 @@ interface MobileMenuProps {
 
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const { viewMode } = useViewMode();
-  const isMobileView = viewMode === "mobile";
+  const forceMobile = viewMode === "mobile";
+  const forceDesktop = viewMode === "desktop";
 
   if (!isOpen) return null;
 
@@ -21,88 +22,81 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
     { label: "About Me", path: "/about" },
   ];
 
-  // Full-screen mobile menu - constrained to mobile wrapper width
-  if (isMobileView) {
-    return (
-      <>
-        {/* Full-screen menu for mobile view - centered and constrained like MobileWrapper */}
-        <div className="fixed inset-0 z-50 flex justify-center animate-[fadeIn_0.2s_ease-out]">
-          <div className="w-full max-w-[380px] h-full bg-[#1A1A24] flex flex-col">
-            {/* Spacer for header area - the actual header with X is visible above */}
-            <div className="h-14 shrink-0"></div>
-
-            {/* Menu items - centered with more spacing */}
-            <nav className="flex flex-col px-6 pt-8">
-              {menuItems.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  onClick={onClose}
-                  className="py-3 text-white font-bakbak text-base hover:bg-white/10 rounded-lg transition-colors text-center"
-                >
-                  {item.label}
-                </Link>
-              ))}
-            </nav>
-
-            {/* Flexible spacer - pushes bottom content down */}
-            <div className="flex-1"></div>
-
-            {/* Bottom section with Menu label and green bar */}
-            <div className="relative shrink-0">
-              <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-[#B9FF66] rounded-t-lg px-8">
-                <span className="text-navy font-aleo text-base py-1 block">Menu</span>
-              </div>
-              <div className="h-16 bg-[#ABE962] w-full"></div>
-            </div>
-          </div>
-        </div>
-      </>
-    );
-  }
-
-  // Desktop/Auto view menu (original style)
   return (
     <>
-      {/* Backdrop - click to close */}
-      <div
-        className="fixed inset-0 z-40"
-        onClick={onClose}
-      />
+      {/* Full-screen mobile menu - shown on actual mobile OR when mobile view forced */}
+      <div className={`fixed inset-0 z-50 bg-[#1A1A24] flex-col animate-[fadeIn_0.2s_ease-out] ${forceMobile ? "flex" : forceDesktop ? "hidden" : "flex md:hidden"}`}>
+        {/* Spacer for header area */}
+        <div className="h-14 shrink-0"></div>
 
-      {/* Menu box positioned with left edge aligned to right edge of Homepage box */}
-      <div className="fixed top-0 left-0 right-0 z-50 pointer-events-none">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
-          <div className="flex justify-center h-20 md:h-24 items-center">
-            {/* Menu positioned: left edge at center + half of Homepage box width */}
-            <div className="relative">
-              <div className="absolute -top-4 left-[100px] md:left-[140px] pointer-events-auto animate-[slideDown_0.2s_ease-out]">
-                <div className="bg-[#1A1A24] rounded-2xl overflow-hidden w-[calc(50vw-100px)] sm:w-[350px] md:w-[420px] lg:w-[480px]">
-                  {/* Spacer for X button area */}
-                  <div className="h-20 md:h-24"></div>
+        {/* Menu items - centered */}
+        <nav className="flex flex-col px-6 pt-8">
+          {menuItems.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              onClick={onClose}
+              className="py-3 text-white font-bakbak text-lg hover:bg-white/10 rounded-lg transition-colors text-center"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </nav>
 
-                  {/* Menu items */}
-                  <nav className="flex flex-col px-8 pb-4">
-                    {menuItems.map((item) => (
-                      <Link
-                        key={item.path}
-                        to={item.path}
-                        onClick={onClose}
-                        className="px-6 py-5 text-white font-bakbak text-base hover:bg-white/10 rounded-lg transition-colors text-center"
-                      >
-                        {item.label}
-                      </Link>
-                    ))}
-                  </nav>
+        {/* Flexible spacer - pushes bottom content down */}
+        <div className="flex-1"></div>
 
-                  {/* Spacer to maintain menu height */}
-                  <div className="h-[78px]"></div>
+        {/* Bottom section with Menu label and green bar */}
+        <div className="relative shrink-0">
+          <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-[#B9FF66] rounded-t-lg px-8">
+            <span className="text-[#1A1A24] font-aleo text-base py-1 block">Menu</span>
+          </div>
+          <div className="h-16 bg-[#ABE962] w-full"></div>
+        </div>
+      </div>
 
-                  {/* Bottom section with line and Menu label */}
-                  <div className="relative">
-                    <div className="h-3 bg-[#ABE962] w-full"></div>
-                    <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-[#B9FF66] rounded-t-lg px-6">
-                      <span className="text-navy font-aleo text-lg py-1 block">Menu</span>
+      {/* Desktop menu - shown on larger screens OR when desktop view forced */}
+      <div className={`${forceDesktop ? "block" : forceMobile ? "hidden" : "hidden md:block"}`}>
+        {/* Backdrop - click to close */}
+        <div
+          className="fixed inset-0 z-40"
+          onClick={onClose}
+        />
+
+        {/* Menu box positioned with left edge aligned to right edge of Homepage box */}
+        <div className="fixed top-0 left-0 right-0 z-50 pointer-events-none">
+          <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-12">
+            <div className="flex justify-center h-20 md:h-24 items-center">
+              {/* Menu positioned: left edge at center + half of Homepage box width */}
+              <div className="relative">
+                <div className="absolute -top-4 left-[100px] md:left-[140px] pointer-events-auto animate-[slideDown_0.2s_ease-out]">
+                  <div className="bg-[#1A1A24] rounded-2xl overflow-hidden w-[calc(50vw-100px)] sm:w-[350px] md:w-[420px] lg:w-[480px]">
+                    {/* Spacer for X button area */}
+                    <div className="h-20 md:h-24"></div>
+
+                    {/* Menu items */}
+                    <nav className="flex flex-col px-8 pb-4">
+                      {menuItems.map((item) => (
+                        <Link
+                          key={item.path}
+                          to={item.path}
+                          onClick={onClose}
+                          className="px-6 py-5 text-white font-bakbak text-base hover:bg-white/10 rounded-lg transition-colors text-center"
+                        >
+                          {item.label}
+                        </Link>
+                      ))}
+                    </nav>
+
+                    {/* Spacer to maintain menu height */}
+                    <div className="h-[78px]"></div>
+
+                    {/* Bottom section with line and Menu label */}
+                    <div className="relative">
+                      <div className="h-3 bg-[#ABE962] w-full"></div>
+                      <div className="absolute bottom-full left-1/2 -translate-x-1/2 bg-[#B9FF66] rounded-t-lg px-6">
+                        <span className="text-[#1A1A24] font-aleo text-lg py-1 block">Menu</span>
+                      </div>
                     </div>
                   </div>
                 </div>
