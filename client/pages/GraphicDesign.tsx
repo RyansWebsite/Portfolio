@@ -63,7 +63,7 @@ export default function GraphicDesign() {
 
   const projects = [
     {
-      image: "/images/RDA Butterfly.png",
+      image: "images/RDA Butterfly.png",
       title: "RDA Butterfly",
       description:
         "The official logo of Ryan Daniel Anderson features a butterfly, with each of his initials forming the wings of the creature.",
@@ -71,73 +71,73 @@ export default function GraphicDesign() {
       imageClass: "scale-[1.1]",
     },
     {
-      image: "/images/Anderson Brand.png",
+      image: "images/Anderson Brand.png",
       title: "Anderson Brand",
       description: "A conceptual cattle branding logo for the Anderson family",
       highlightColor: "#E8E8E8",
       imageClass: "scale-[1.1]",
     },
     {
-      image: "/images/ActivePeak 1.0.png",
+      image: "images/ActivePeak 1.0.png",
       title: "ActivePeak 1.0",
       description:
         'The first modern ActivePeak logo after a long hiatus, featuring a refreshed color palette and a mountain symbol built from the "A" and "P."',
       highlightColor: "#6B8E5A",
     },
     {
-      image: "/images/IWetMyPlants.jpg",
+      image: "images/IWetMyPlants.jpg",
       title: "I Wet My Plants",
       description:
         "A playful logo design featuring a watering can and plant motif.",
       highlightColor: "#6ADCFF",
     },
     {
-      image: "/images/WM DETAIL-100.jpg",
+      image: "images/WM DETAIL-100.jpg",
       title: "WM Detailing STL",
       description: "A logo designed for WM Detailing in St. Louis Missouri",
       highlightColor: "#FF6666",
     },
     {
-      image: "/images/ActivePeak 2.0.jpg",
+      image: "images/ActivePeak 2.0.jpg",
       title: "ActivePeak 2.0",
       description:
         "ActivePeak 2.0 was designed with the purpose of being a multiplatform design easy to view from mobile to desktop platforms",
       highlightColor: "#7CFC00",
     },
     {
-      image: "/images/ActivePeak Retro.jpg",
+      image: "images/ActivePeak Retro.jpg",
       title: "ActivePeak Retro",
       description:
         "This logo was based of the old energy star logo to give ActivePeak a retro feeling. This design was made for use in a motion graphic",
       highlightColor: "#5BC0EB",
     },
     {
-      image: "/images/Hawkeyes.png",
+      image: "images/Hawkeyes.png",
       title: "Hawkeyes",
       description:
         "A design inspired by the Iowa Hawkeyes.",
       highlightColor: "#FFCD00",
     },
     {
-      image: "/images/Iowa Podcast 1.0.png",
+      image: "images/Iowa Podcast 1.0.png",
       title: "Iowa Podcast 1.0",
       description: "The first version of the Heroic Herstories podcast logo for Iowa Health Care",
       highlightColor: "#F5C542",
     },
     {
-      image: "/images/Extinction 1-100.jpg",
+      image: "images/Extinction 1-100.jpg",
       title: "Extinction",
       description: 'A conceptual logo for a sports team call "Extinction"',
       highlightColor: "#E8E8E8",
     },
     {
-      image: "/images/Boyd Tower-100.jpg",
+      image: "images/Boyd Tower-100.jpg",
       title: "Boyd Tower",
       description: "A conceptual logo for the famous Boyd Tower that where Iowa Health Care began in 1874",
       highlightColor: "#F5D000",
     },
     {
-      image: "/images/Iowa Podcast 2.0.png",
+      image: "images/Iowa Podcast 2.0.png",
       title: "Iowa Podcast 2.0",
       description:
         "The second version of the Heroic Herstories podcast logo with a more simplified look while still highlighting Iowa City the home of Iowa Health Care",
@@ -145,7 +145,7 @@ export default function GraphicDesign() {
       imageClass: "scale-[1.1]",
     },
     {
-      image: "/images/design center.png",
+      image: "images/design center.png",
       title: "Design Center",
       description:
         "A logo design for a design center.",
@@ -153,14 +153,14 @@ export default function GraphicDesign() {
       imageClass: "scale-[1.1]",
     },
     {
-      image: "/images/WOLVES-100.jpg",
+      image: "images/WOLVES-100.jpg",
       title: "Wolves",
       description: 'A conceptual design for a sports team called "The Wolves"',
       highlightColor: "#8B9DAE",
       imageClass: "scale-[1.25]",
     },
     {
-      image: "/images/VALR.png",
+      image: "images/VALR.png",
       title: "VALR Productions",
       description:
         "I designed the official logo for the VALR Productions group along with various variants for social media use and watermarking",
@@ -168,7 +168,7 @@ export default function GraphicDesign() {
       imageClass: "scale-[1.35]",
     },
     {
-      image: "/images/Orion.png",
+      image: "images/Orion.png",
       title: "Orion",
       description: "Based on the design of old tech giant logos",
       highlightColor: "#00BFFF",
@@ -186,7 +186,7 @@ export default function GraphicDesign() {
         {/* Mobile Hero - Graphic Design Card */}
         <Link to="/" className="block mb-6 rounded-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)]">
           <img
-            src="/images/o design 1.png"
+            src="images/o design 1.png"
             alt="Graphic Design"
             className="w-full h-48 object-cover"
           />
@@ -223,7 +223,7 @@ export default function GraphicDesign() {
         <div className="flex flex-row gap-0 mb-12 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden h-[420px] lg:h-[450px]">
           <Link to="/" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="/images/o design 1.png"
+              src="images/o design 1.png"
               alt="Graphic Design"
               className="w-full flex-1 object-cover"
             />

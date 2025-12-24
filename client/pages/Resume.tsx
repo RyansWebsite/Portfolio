@@ -16,7 +16,7 @@ export default function Resume() {
         {/* Mobile Hero - Resume Card */}
         <Link to="/" className="block mb-0 rounded-2xl overflow-hidden shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] relative z-10">
           <img
-            src="/images/o resume 1.png"
+            src="images/o resume 1.png"
             alt="Resume"
             className="w-full h-48 object-cover"
           />
@@ -118,7 +118,7 @@ export default function Resume() {
         <div className="flex flex-row gap-0 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] rounded-l-2xl rounded-r-2xl overflow-hidden h-[420px] lg:h-[450px] relative z-10">
           <Link to="/" className="w-1/2 flex flex-col cursor-pointer">
             <img
-              src="/images/o resume 1.png"
+              src="images/o resume 1.png"
               alt="Resume"
               className="w-full flex-1 object-cover"
             />
