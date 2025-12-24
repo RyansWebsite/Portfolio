@@ -11,7 +11,7 @@ interface ViewModeContextType {
 const ViewModeContext = createContext<ViewModeContextType | undefined>(undefined);
 
 export function ViewModeProvider({ children }: { children: ReactNode }) {
-  const [viewMode, setViewMode] = useState<ViewMode>("desktop");
+  const [viewMode, setViewMode] = useState<ViewMode>("auto");
 
   // When "mobile" is forced, always show mobile. When "desktop" is forced, always show desktop.
   // When "auto", let CSS media queries handle it naturally.
