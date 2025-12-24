@@ -269,7 +269,7 @@ export default function Index() {
             <div className="relative rounded-2xl overflow-hidden">
               <img src="/Portfolio/images/portfolio-08.jpg" alt="Portfolio" className="w-full h-64 lg:h-96 object-cover" />
               {/* Hidden easter egg button - disc golf bag overlay */}
-              <Link to="/easter-egg" className="absolute bottom-[5%] right-0 w-[32%] cursor-pointer group" aria-label="Hidden easter egg">
+              <Link to="/easter-egg" className="absolute bottom-[5%] right-[-2%] w-[30%] cursor-pointer group" aria-label="Hidden easter egg">
                 <img src="/Portfolio/images/Bag.png" alt="" className="w-full h-auto group-hover:animate-[delayedGlow_5s_ease-in-out_forwards]" />
               </Link>
             </div>
