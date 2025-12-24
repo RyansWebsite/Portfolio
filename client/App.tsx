@@ -64,7 +64,7 @@ const App = () => {
           <Toaster />
           <Sonner />
           <ViewToggle />
-          <BrowserRouter>
+          <BrowserRouter basename={import.meta.env.BASE_URL}>
             <MobileWrapper>
               <Routes>
                 <Route path="/" element={<Index />} />
