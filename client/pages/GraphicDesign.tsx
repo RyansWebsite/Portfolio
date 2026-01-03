@@ -85,11 +85,11 @@ export default function GraphicDesign() {
       highlightColor: "#6B8E5A",
     },
     {
-      image: "/images/IWetMyPlants.jpg",
-      title: "I Wet My Plants",
+      image: "/images/E1V4.png",
+      title: "Prospect",
       description:
-        "A playful logo design featuring a watering can and plant motif.",
-      highlightColor: "#6ADCFF",
+        "A concept logo for a hypothetical marketing and content consulting company.",
+      highlightColor: "#b9d4aa",
     },
     {
       image: "/images/WM DETAIL-100.jpg",
@@ -108,7 +108,7 @@ export default function GraphicDesign() {
       image: "/images/ActivePeak Retro.jpg",
       title: "ActivePeak Retro",
       description:
-        "This logo was based of the old energy star logo to give ActivePeak a retro feeling. This design was made for use in a motion graphic",
+        "This logo was based on the old energy star logo to give ActivePeak a retro feeling. This design was made for use in a motion graphic",
       highlightColor: "#5BC0EB",
     },
     {
@@ -127,14 +127,14 @@ export default function GraphicDesign() {
     {
       image: "/images/Extinction 1-100.jpg",
       title: "Extinction",
-      description: 'A conceptual logo for a sports team call "Extinction"',
+      description: 'A conceptual logo for a sports team called "Extinction"',
       highlightColor: "#E8E8E8",
     },
     {
-      image: "/images/Boyd Tower-100.jpg",
-      title: "Boyd Tower",
-      description: "A conceptual logo for the famous Boyd Tower that where Iowa Health Care began in 1874",
-      highlightColor: "#F5D000",
+      image: "/images/E2V1.png",
+      title: "Prospect 2.0",
+      description: "A mobile-ready logo variant designed specifically for social media profiles, icons, and other compact digital applications.",
+      highlightColor: "#b9d4aa",
     },
     {
       image: "/images/Iowa Podcast 2.0.png",

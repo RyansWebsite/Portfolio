@@ -116,7 +116,7 @@ export default function About() {
         {/* Mobile About Content */}
         <div className="bg-[#1E1E1E] rounded-b-2xl p-4 pt-5 shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] relative z-10">
           <p className="text-[#E0E0E0] font-aleo text-sm leading-relaxed mb-4 text-pretty">
-            Hi there, My name is Ryan! I Graduated from the University of Iowa with two degrees, one in{" "}
+            Hi there, my name is Ryan! I graduated from the University of Iowa with two degrees, one in{" "}
             <span className="underline">Cinema</span> and the other in <span className="underline">Marketing</span>.
           </p>
           <p className="text-[#E0E0E0] font-aleo text-sm leading-relaxed mb-4 text-pretty">
@@ -125,7 +125,7 @@ export default function About() {
             my knowledge, learn a new program, and meet new people.
           </p>
           <p className="text-[#E0E0E0] font-aleo text-sm leading-relaxed mb-6 text-pretty">
-            At the end of the day I want to create meaningful a impact through creative and analytical thinking. If
+            At the end of the day I want to create a meaningful impact through creative and analytical thinking. If
             you are interested in working together in the future, please feel free to reach out!
           </p>
 
@@ -230,7 +230,7 @@ export default function About() {
           <div className="w-1/2 bg-[#1E1E1E] p-4 lg:p-6 flex flex-col justify-between">
             <div>
               <h2 className="text-[#E0E0E0] font-aleo text-base leading-relaxed mb-6">
-                Hi there, My name is Ryan! I Graduated from the University of Iowa with two degrees, one in{" "}
+                Hi there, my name is Ryan! I graduated from the University of Iowa with two degrees, one in{" "}
                 <span className="underline">Cinema</span> and the other in <span className="underline">Marketing</span>.
                 <br />
                 <br />

@@ -63,21 +63,21 @@ export default function MotionGraphics() {
       image: "/images/Des Moines Major.jpg",
       title: "Des Moines Major - Counter Strike",
       description: "This is a concept trailer for a Counter Strike Major event in Iowa's Capital, Des Moines",
-      link: "https://www.youtube.com/watch?v=m12Z1AIQHmQ",
+      link: "https://www.youtube.com/watch?v=rex9z2rub5w",
       highlightColor: "#7C55BA",
     },
     {
       image: "/images/ActivePeak Hacked.jpg",
       title: "ActivePeak Hacked Boot-Up",
       description: "Oh no... It seems your old windows 98 computer picked up a virus the last time you used it",
-      link: "https://www.youtube.com/watch?v=EvymILC6b9w",
+      link: "https://www.youtube.com/watch?v=QgidYrR9GMM",
       highlightColor: "#FD1E03",
     },
     {
       image: "/images/ActivePeak Connecting CRT.jpg",
       title: "ActivePeak Connecting - CRT",
       description: "This intro was created to emulate the look and recognizable characteristics of an old CRT TV",
-      link: "https://www.youtube.com/watch?v=m6XJLnGNRSo",
+      link: "https://www.youtube.com/watch?v=wFhmDTA9bhc",
       highlightColor: "#45428D",
     },
     {
@@ -85,7 +85,7 @@ export default function MotionGraphics() {
       title: "The Timeless Day",
       description:
         "Though a beginner piece, these shapes demonstrate a distinct stylistic approach suited for modern motion graphics across all media.",
-      link: "https://www.youtube.com/watch?v=GkcJoavkDsw",
+      link: "https://www.youtube.com/watch?v=3nJF3l_82TY",
       highlightColor: "#00DF21",
     },
   ];
