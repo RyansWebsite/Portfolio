@@ -79,9 +79,9 @@ export default function GraphicDesign() {
     },
     {
       image: "/images/ActivePeak 1.0.png",
-      title: "ActivePeak 1.0",
+      title: "AP Mountain Design 1.0",
       description:
-        'The first modern ActivePeak logo after a long hiatus, featuring a refreshed color palette and a mountain symbol built from the "A" and "P."',
+        'A modern logo design featuring a refreshed color palette and a mountain symbol cleverly built from the letters "A" and "P."',
       highlightColor: "#6B8E5A",
     },
     {
@@ -99,17 +99,16 @@ export default function GraphicDesign() {
     },
     {
       image: "/images/ActivePeak 2.0.jpg",
-      title: "ActivePeak 2.0",
+      title: "AP Mountain Design 2.0",
       description:
-        "ActivePeak 2.0 was designed with the purpose of being a multiplatform design easy to view from mobile to desktop platforms",
+        "AP Mountain Design 2.0 was designed with the purpose of being a multiplatform design easy to view from mobile to desktop platforms",
       highlightColor: "#7CFC00",
     },
     {
-      image: "/images/ActivePeak Retro.jpg",
-      title: "ActivePeak Retro",
-      description:
-        "This logo was based on the old energy star logo to give ActivePeak a retro feeling. This design was made for use in a motion graphic",
-      highlightColor: "#5BC0EB",
+      image: "/images/E2V1.png",
+      title: "Prospect 2.0",
+      description: "A mobile-ready logo variant designed specifically for social media profiles, icons, and other compact digital applications.",
+      highlightColor: "#b9d4aa",
     },
     {
       image: "/images/Hawkeyes.png",
@@ -131,10 +130,11 @@ export default function GraphicDesign() {
       highlightColor: "#E8E8E8",
     },
     {
-      image: "/images/E2V1.png",
-      title: "Prospect 2.0",
-      description: "A mobile-ready logo variant designed specifically for social media profiles, icons, and other compact digital applications.",
-      highlightColor: "#b9d4aa",
+      image: "/images/ActivePeak Retro.jpg",
+      title: "ActivePeak Energy",
+      description:
+        "A logo for a hypothetical energy company inspired by the classic Energy Star aesthetic. This retro design was created for use in a motion graphic project.",
+      highlightColor: "#5BC0EB",
     },
     {
       image: "/images/Iowa Podcast 2.0.png",

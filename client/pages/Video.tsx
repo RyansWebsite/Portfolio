@@ -141,10 +141,10 @@ export default function Video() {
       link: "https://www.youtube.com/watch?v=VASoxwoP6BM",
     },
     {
-      image: "/images/how youtube changed my life.jpg",
-      title: "How YouTube Changed My Life",
-      description: "ActivePeak Reflects on his history as a creator and his friendships",
-      link: "https://www.youtube.com/watch?v=A6dY5T5RFDk",
+      image: "/images/idea 7.jpg",
+      title: "Aquatic Plant Growth",
+      description: "A documentary following the growth of aquatic plants, kept simple and meant to be a calm cinematic experience for social media audiences",
+      link: "https://www.youtube.com/watch?v=E93VBV7IZPM",
     },
     {
       image: "/images/Mcstuffins Murder.jpg",
@@ -176,37 +176,24 @@ export default function Video() {
         {/* Mobile Navigation Buttons */}
         <div className="flex gap-3 mb-6 justify-center">
           <button
-            onClick={() => scrollToSection("mobile-short-films")}
-            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#5BC0EB] text-navy"
-          >
-            Short-films
-          </button>
-          <button
             onClick={() => scrollToSection("mobile-work-projects")}
-            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#F5C542] text-navy"
+            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#B9FF66] text-navy"
           >
             Work
           </button>
           <button
+            onClick={() => scrollToSection("mobile-short-films")}
+            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#4EF567] text-navy"
+          >
+            Short-films
+          </button>
+          <button
             onClick={() => scrollToSection("mobile-personal-projects")}
-            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#7C55BA] text-white"
+            className="px-4 py-2 rounded-full font-bakbak text-sm transition-all duration-300 bg-[#51D5AB] text-navy"
           >
             Personal
           </button>
         </div>
-
-        {/* Mobile Short Films Section */}
-        <section id="mobile-short-films" className="mb-8">
-          <div className="space-y-4">
-            {shortFilms.map((film, index) => (
-              <VideoCard
-                key={index}
-                project={film}
-                color="#5BC0EB"
-              />
-            ))}
-          </div>
-        </section>
 
         {/* Mobile Work Projects Section */}
         <section id="mobile-work-projects" className="mb-8">
@@ -215,7 +202,20 @@ export default function Video() {
               <VideoCard
                 key={index}
                 project={project}
-                color="#F5C542"
+                color="#B9FF66"
+              />
+            ))}
+          </div>
+        </section>
+
+        {/* Mobile Short Films Section */}
+        <section id="mobile-short-films" className="mb-8">
+          <div className="space-y-4">
+            {shortFilms.map((film, index) => (
+              <VideoCard
+                key={index}
+                project={film}
+                color="#4EF567"
               />
             ))}
           </div>
@@ -228,7 +228,7 @@ export default function Video() {
               <VideoCard
                 key={index}
                 project={project}
-                color="#7C55BA"
+                color="#51D5AB"
               />
             ))}
           </div>
@@ -279,52 +279,26 @@ export default function Video() {
             </div>
             <div className="flex flex-wrap gap-3 justify-end pr-6 pb-2">
               <button
-                onClick={() => scrollToSection("short-films")}
-                className="px-5 py-2.5 bg-[#5BC0EB] rounded-2xl text-navy font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(91,192,235,0.6)]"
-              >
-                Short Films
-              </button>
-              <button
                 onClick={() => scrollToSection("work-projects")}
-                className="px-5 py-2.5 bg-[#F5C542] rounded-2xl text-navy font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(245,197,66,0.6)]"
+                className="px-5 py-2.5 bg-[#B9FF66] rounded-2xl text-navy font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(185,255,102,0.6)]"
               >
                 Work
               </button>
               <button
+                onClick={() => scrollToSection("short-films")}
+                className="px-5 py-2.5 bg-[#4EF567] rounded-2xl text-navy font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(78,245,103,0.6)]"
+              >
+                Short Films
+              </button>
+              <button
                 onClick={() => scrollToSection("personal-projects")}
-                className="px-5 py-2.5 bg-[#7C55BA] rounded-2xl text-white font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(124,85,186,0.6)]"
+                className="px-5 py-2.5 bg-[#51D5AB] rounded-2xl text-navy font-bakbak text-base shadow-[3px_3px_4px_0_rgba(0,0,0,0.25)] transition-all duration-300 hover:scale-105 hover:shadow-[3px_3px_4px_0_rgba(0,0,0,0.25),0_0_10px_rgba(81,213,171,0.6)]"
               >
                 Personal
               </button>
             </div>
           </div>
         </div>
-
-        {/* Short Films */}
-        <section id="short-films" className="mb-12">
-          <div className="grid grid-cols-2 gap-12">
-            {shortFilms.map((film, index) => (
-              <a
-                key={index}
-                href={film.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex flex-col h-full rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-transform duration-300 hover:scale-105"
-              >
-                <div className="relative overflow-hidden">
-                  <img src={film.image} alt={film.title} className="w-full h-64 lg:h-72 object-cover" />
-                </div>
-                <div className="bg-[#1E1E1E] flex-1 flex flex-col">
-                  <div className="h-2 w-full bg-[#5BC0EB]"></div>
-                  <div className="p-4 space-y-2 flex-1">
-                    <h3 className="text-white font-bakbak text-base">{film.title}</h3>
-                    <p className="text-[#C7C7C7] font-bakbak text-sm text-pretty">{film.description}</p>
-                  </div>
-                </div>
-              </a>
-            ))}
-          </div>
-        </section>
 
         {/* Work Projects */}
         <section id="work-projects" className="mb-12">
@@ -341,10 +315,36 @@ export default function Video() {
                   <img src={project.image} alt={project.title} className="w-full h-64 lg:h-72 object-cover" />
                 </div>
                 <div className="bg-[#1E1E1E] flex-1 flex flex-col">
-                  <div className="h-2 w-full bg-[#F5C542]"></div>
+                  <div className="h-2 w-full bg-[#B9FF66]"></div>
                   <div className="p-4 space-y-2 flex-1">
                     <h3 className="text-white font-bakbak text-base">{project.title}</h3>
                     <p className="text-[#C7C7C7] font-bakbak text-sm text-pretty">{project.description}</p>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+
+        {/* Short Films */}
+        <section id="short-films" className="mb-12">
+          <div className="grid grid-cols-2 gap-12">
+            {shortFilms.map((film, index) => (
+              <a
+                key={index}
+                href={film.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group flex flex-col h-full rounded-lg shadow-[2px_4px_4px_0_rgba(0,0,0,0.57)] overflow-hidden transition-transform duration-300 hover:scale-105"
+              >
+                <div className="relative overflow-hidden">
+                  <img src={film.image} alt={film.title} className="w-full h-64 lg:h-72 object-cover" />
+                </div>
+                <div className="bg-[#1E1E1E] flex-1 flex flex-col">
+                  <div className="h-2 w-full bg-[#4EF567]"></div>
+                  <div className="p-4 space-y-2 flex-1">
+                    <h3 className="text-white font-bakbak text-base">{film.title}</h3>
+                    <p className="text-[#C7C7C7] font-bakbak text-sm text-pretty">{film.description}</p>
                   </div>
                 </div>
               </a>
@@ -367,7 +367,7 @@ export default function Video() {
                   <img src={project.image} alt={project.title} className="w-full h-64 lg:h-72 object-cover" />
                 </div>
                 <div className="bg-[#1E1E1E] flex-1 flex flex-col">
-                  <div className="h-2 w-full bg-[#7C55BA]"></div>
+                  <div className="h-2 w-full bg-[#51D5AB]"></div>
                   <div className="p-4 space-y-2 flex-1">
                     <h3 className="text-white font-bakbak text-base">{project.title}</h3>
                     <p className="text-[#C7C7C7] font-bakbak text-sm text-pretty">{project.description}</p>
